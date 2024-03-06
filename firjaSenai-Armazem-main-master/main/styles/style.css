@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppinsregular', sans-serif;
+}
+
+body {
+  background-color: #f8fafd;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font: 100px;
+  font-family: 'poppinssemibold', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 200px;
+  max-height: 150px;
+  height: auto;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 30px;
+  position: relative;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #4b4b4b;
+  padding: 20px 0;
+  display: inline-block;
+  transition: all ease 0.3s;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+header ul li a:hover {
+  color: #013bd1;
+  background-color: #e7e8eb;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.submenu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 200px;
+  background-color: #ffffff;
+  box-shadow: 0 20px 45px #00000020;
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.5s ease, opacity 0.5s ease, visibility 0.5s;
+  border-radius: 10px;
+  transform: translateY(-10px); /* Começa oculto */
+  z-index: 999; /* Garante que o submenu fique acima de outros elementos */
+}
+
+header ul li:hover .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0); /* Mostra o submenu */
+}
+
+header ul .submenu li {
+  margin: 0;
+  width: 100%;
+}
+
+header ul .submenu li a {
+  padding: 15px 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #f0f4f9;
+  width: 400px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: #4b4b4b;
+  border: none;
+  transition: 1s;
+}
+
+#searchInput {
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+}
+
+.search label {
+  height: 24px;
+}
+
+.active,
+.search:hover {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  background-color: #f0f4f9;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  background-color: #dfe3e7;
+}
+

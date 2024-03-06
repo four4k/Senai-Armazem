@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppinsregular', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8fafd;
+  flex-direction: column;
+}
+
+main {
+  width: 70%;
+  height: 75vh;
+  display: flex;
+  border-radius: 25px;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+  font-size: 25px;
+  width: auto;
+  padding-top: 100px;
+  height: 30%;
+}
+
+.title h1{
+  font-family: 'poppinsbold', sans-serif;
+}
+
+#img{
+  width:  100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.Storage {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+#text {
+  padding: 2%;
+  padding-left: 0;
+  font-size: 17px;
+}
+
+.nameInput {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15%;
+}
+
+#nameInput {
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+#nameInput1::placeholder {
+  align-self: center;
+  color: rgba(0, 0, 0, 0.01);
+  font-family: 'poppinslight', sans-serif;
+}
+
+.selectCode{
+  padding: 25px;
+  padding-left: 0;
+  background-color: #fff;
+}
+
+#codes {
+  padding-inline: 35px;
+  padding-block: 8px;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+
+.submit{
+  display: flex;
+  flex-direction: column;
+  padding-right: 15%;
+  padding-top: 50px;
+  
+}
+
+#enviar{
+  padding-block: 12px;
+  background-color: blue;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-family: 'poppinssemibold', sans-serif;
+  transition: 0.3s;
+}
+
+#enviar:hover{
+  background-color: #fff;
+  color: blue;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.comeback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1%;
+  padding-right: 15%;
+}
+

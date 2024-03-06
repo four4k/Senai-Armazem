@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firjan Senai - Cadastro Estante</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" href="../styles/Warehouse.css">
+  <link rel="stylesheet" href="../styles/fonts.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <script src="main/src/main.js" defer></script>
+</head>
+<body>
+  <header>
+
+    <div class="logo">
+      <a href="../../index.html"><img src="../assets/images/main_logo.png"></a>
+    </div>
+
+    <nav id="nav">
+      <ul>
+        <li><a href="#">Cadastro</a>
+          <ul class="submenu">
+            <li><a href="../forms/formWarehouse.html">Armazém</a></li>
+            <li><a href="../forms/formBookcase.html">Estante</a></li>
+            <li><a href="../forms/formShelf.html">Prateleira</a></li>
+            <li><a href="../forms/formPosition.html">Posição</a></li>
+          </ul>
+        </li>
+        <li><a href="../../relatorio.php">Relatório</a></li>
+        <li><a href="../forms/formProducts.html">Produtos</a></li>
+      </ul>
+    </nav>
+
+  </header>
+    <main>
+      <aside>
+        <img src="../assets/images/Checking boxes-cuate.svg" id="img">
+      </aside>
+      <form action="../../cadastrarEstante.php" method="post" class="storage">
+      <div class="title">
+        <h1>Cadastrar Estante</h1>
+      </div>
+        <div class="nameInput">
+          <h4>Nome da Estante</h4>
+          <input type="text" id="nameInput" name="codigo" placeholder="Digite o nome da Estante" required>
+        </div>         
+        <div class="selectCode">
+          <h4>Codigo da Estante</h4>
+          <label for="codes">Escolha o Codigo:</label>
+          <select name="codigo" id="codes" required>
+            <option value="" disabled selected>0</option>
+            <script>
+              for (var i = 1; i <= 99; i++) {
+                document.write("<option value='Codigo - " + i + "'>" + i + "</option>");
+              }
+            </script>
+          </select>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Confirmar" id="enviar">
+        </div>
+        <ul class="comeback">
+          <li><a href="../../index.html">Voltar</a></li>
+        </ul>
+      </form>
+    </main>
+  </aside>
+</body>
+</html>
