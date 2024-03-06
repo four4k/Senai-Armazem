@@ -13,7 +13,7 @@ Este projeto é parte do curso do SENAI e visa desenvolver um sistema de gestão
 Atualmente, o projeto está em desenvolvimento e não está 100% completo. Estamos trabalhando para implementar todas as funcionalidades planejadas e aprimorar a usabilidade do sistema.
 
 ## Tecnologias Utilizadas:
-- Linguagem de programação: HTML, PHP, JavaScript
+- Linguagem de programação: HTML, PHP, JavaScript e CSS
 
 ## Equipe:
 Este projeto é desenvolvido pela equipe Senai - Barra do Piraí do curso Back-End do SENAI.
