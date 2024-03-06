@@ -1,26 +1,19 @@
-# Projeto final de programação back end
-*Projeto final apresentado pela turma de programador back end do SENAI Barra do Pirai.  
-Primeira parte do sistema de controle de armazens e estoque de materiais e produtos.*
+## Sistema de Armazém de Produtos do SENAI
 
-**Pendencias:**  
-Query do SQL e interfaces:
-* ~~Query do SQL e interface de Armazem~~  
-* ~~Query do SQL e interface de Estante~~  
-* ~~Query do SQL e interface de Prateleira~~  
-* ~~Query do SQL e interface de Posição~~   
-* ~~Query do SQL e interface de Produto~~
+Este projeto é parte do curso do SENAI e visa desenvolver um sistema de gestão de armazém de produtos. O sistema é projetado para acompanhar a disposição dos produtos em prateleiras e estantes, bem como suas respectivas posições dentro do armazém.
 
-Classes:  
-* ~~Classe Conexão~~
-* ~~Classe Armazem~~ 
-* ~~Classe Estante~~  
-* ~~Classe Prateleira~~  
-* ~~Classe Posição~~  
-* ~~Classe Produto~~  
+## Funcionalidades Principais:
+- Cadastro de produtos.
+- Gerenciamento de prateleiras e estantes.
+- Rastreamento das posições dos produtos dentro do armazém.
+- Capacidade de adicionar, remover e atualizar produtos e suas posições.
+- Interface de usuário intuitiva para facilitar a navegação e o gerenciamento.
 
-CRUDs:
-* Armazem(Deletar, Excluir, listar, Atualizar)  
-* Armario/Estante(Alterar, Excluir, Listar)  
-* Prateleira(Alterar, Deletar, Listar )  
-* Posição(Atualizar, Listar, Remover)  
-* Produto(listar, excluir, Alterar, Listar) 
+## Estado Atual do Projeto:
+Atualmente, o projeto está em desenvolvimento e não está 100% completo. Estamos trabalhando para implementar todas as funcionalidades planejadas e aprimorar a usabilidade do sistema.
+
+## Tecnologias Utilizadas:
+- Linguagem de programação: HTML, PHP, JavaScript
+
+## Equipe:
+Este projeto é desenvolvido pela equipe Senai - Barra do Piraí do curso Back-End do SENAI.
